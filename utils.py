@@ -11,6 +11,13 @@ def create_task(tasks):
   due_date = input("Enter task due date")
 
 task = {
-  "id" = task_id
-      
+  "id" = task_id,
+  "title" = title,
+  "desc" = desc,
+  "priority" = priority,
+  "due" = due_date
+  "status" = "In Progress"
+}  
+task.append(tasks)
+print("Task added successfully")
   
